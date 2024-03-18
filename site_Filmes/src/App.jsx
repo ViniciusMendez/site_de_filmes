@@ -1,11 +1,16 @@
+import { Outlet } from 'react-router-dom'
+import Navbar from './Components/Navbar'
+
 import './App.css'
+
 
 function App() {
 
   return (
-    <>
-    vazio
-    </>
+    <div className='App'>
+      <Navbar/>
+      <Outlet/>
+    </div>
   )
 }
 
