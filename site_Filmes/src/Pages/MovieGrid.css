@@ -57,4 +57,16 @@
     background-color: transparent;
     color: #f7d354;
 }
- 
+
+/* Media Query para dispositivos com largura máxima de 768px (dispositivos móveis) */
+@media (max-width: 768px) {
+    .movies-container div {
+        width: 100%; /* Altera a largura para 100% para que os itens ocupem toda a largura da tela */
+    }
+
+    .movies-container {
+        padding: 1rem; /* Reduz o padding para espaçamento menor entre os itens */
+        
+    }
+
+}

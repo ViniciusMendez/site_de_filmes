@@ -1,5 +1,4 @@
 /* eslint-disable react/jsx-key */
-import axios from 'axios'
 import  {useState, useEffect} from 'react';
 import MovieCard from '../Components/MovieCard';
 import './MovieGrid.css'
